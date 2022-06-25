@@ -412,7 +412,7 @@ a {
   top: 0;
   right: 0;
   bottom: 0;
-  background-image: url('/img/search-mobile.svg');
+  background-image: url('../img/search-mobile.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -426,7 +426,7 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: url('/img/search-closed-mobile.svg');
+  background-image: url('../img/search-closed-mobile.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -752,7 +752,7 @@ a {
 
 .header-bottom__search-btn::before {
   content: " ";
-  background-image: url('/img/search-icon.svg');
+  background-image: url('../img/search-icon.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -806,83 +806,83 @@ a {
 }
 
 .tab1-item1 {
-  background-image: url('/img/tintoretto.png');
+  background-image: url('../img/tintoretto.png');
 }
 
 .tab1-item2 {
-  background-image: url('/img/fridrih.png');
+  background-image: url('../img/fridrih.png');
 }
 
 .tab1-item3 {
-  background-image: url('/img/leonardo.png');
+  background-image: url('../img/leonardo.png');
 }
 
 .tab1-item4 {
-  background-image: url('/img/verrokkio.png');
+  background-image: url('../img/verrokkio.png');
 }
 
 .tab2-item1 {
-  background-image: url('/img/mone.png');
+  background-image: url('../img/mone.png');
 }
 
 .tab2-item2 {
-  background-image: url('/img/sisley.png');
+  background-image: url('../img/sisley.png');
 }
 
 .tab2-item3 {
-  background-image: url('/img/mane.png');
+  background-image: url('../img/mane.png');
 }
 
 .tab2-item4 {
-  background-image: url('/img/renuar.png');
+  background-image: url('../img/renuar.png');
 }
 
 .tab3-item1 {
-  background-image: url('/img/van-gog.png');
+  background-image: url('../img/van-gog.png');
 }
 
 .tab3-item2 {
-  background-image: url('/img/sezann.png');
+  background-image: url('../img/sezann.png');
 }
 
 .tab3-item3 {
-  background-image: url('/img/gogen.png');
+  background-image: url('../img/gogen.png');
 }
 
 .tab3-item4 {
-  background-image: url('/img/syora.png');
+  background-image: url('../img/syora.png');
 }
 
 .tab4-item1 {
-  background-image: url('/img/kandinsky.png');
+  background-image: url('../img/kandinsky.png');
 }
 
 .tab4-item2 {
-  background-image: url('/img/marinetti.png');
+  background-image: url('../img/marinetti.png');
 }
 
 .tab4-item3 {
-  background-image: url('/img/malevich.png');
+  background-image: url('../img/malevich.png');
 }
 
 .tab4-item4 {
-  background-image: url('/img/picasso.png');
+  background-image: url('../img/picasso.png');
 }
 
 .tab5-item1 {
-  background-image: url('/img/karra.png');
+  background-image: url('../img/karra.png');
 }
 
 .tab5-item2 {
-  background-image: url('/img/pratella.png');
+  background-image: url('../img/pratella.png');
 }
 
 .tab5-item3 {
-  background-image: url('/img/severini.png');
+  background-image: url('../img/severini.png');
 }
 
 .tab5-item4 {
-  background-image: url('/img/balla.png');
+  background-image: url('../img/balla.png');
 }
 
 .dropdown__link {
@@ -1018,15 +1018,15 @@ a {
 }
 
 .hero__slide-1 {
-  background-image: url('/img/hero-slide1.jpg');
+  background-image: url('../img/hero-slide1.jpg');
 }
 
 .hero__slide-2 {
-  background-image: url('/img/hero-slide2.jpg');
+  background-image: url('../img/hero-slide2.jpg');
 }
 
 .hero__slide-3 {
-  background-image: url('/img/hero-slide3.jpg');
+  background-image: url('../img/hero-slide3.jpg');
 }
 
 .hero__container {
@@ -1144,7 +1144,7 @@ a {
 
 /* gallery */
 .gallery {
-  background-image: url('/img/gallery-back.jpg');
+  background-image: url('../img/gallery-back.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1307,7 +1307,7 @@ a {
 
 .gallery__select .choices[data-type*=select-one]:after {
   content: '';
-  background-image: url(/img/arrow-down.svg);
+  background-image: url('../img/arrow-down.svg');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1414,7 +1414,7 @@ label {
 
 .checkbox__input:checked+label::before {
   border-color: var(--style-color-3);
-  background-image: url('/img/checkbox-circle.svg');
+  background-image: url('../img/checkbox-circle.svg');
   -webkit-transition: all 200ms ease-in;
   -o-transition: all 200ms ease-in;
   transition: all 200ms ease-in;
@@ -1513,12 +1513,12 @@ label {
 
 
 .gallery-slider__btn-prev {
-  background-image: url('/img/arrow-left.svg');
+  background-image: url('../img/arrow-left.svg');
   margin-right: 72px;
 }
 
 .gallery-slider__btn-next {
-  background-image: url('/img/arrow-right.svg');
+  background-image: url('../img/arrow-right.svg');
 }
 
 .gallery-slider__pagination {
@@ -1544,7 +1544,7 @@ label {
   bottom: 25px;
   right: 25px;
   background: rgba(0, 0, 0, 0.5);
-  background-image: url('/img/gallery-modal-hover.svg');
+  background-image: url('../img/gallery-modal-hover.svg');
   background-repeat: no-repeat;
   background-position: center;
   opacity: 0;
@@ -2501,7 +2501,7 @@ label {
 
 
 .partners__button-prev {
-  background-image: url('/img/partners-arrow.svg');
+  background-image: url('../img/partners-arrow.svg');
   -webkit-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   transform: rotate(180deg);
@@ -2512,7 +2512,7 @@ label {
 }
 
 .partners__button-next {
-  background-image: url('/img/partners-arrow.svg');
+  background-image: url('../img/partners-arrow.svg');
   right: 0;
 }
 
