@@ -674,9 +674,9 @@ a {
 
 .header-bottom__menu-btn--active::after {
   color: var(--style-color-2);
-  -webkit-transform: rotate(-45deg) translateX(-4px);
-  -ms-transform: rotate(-45deg) translateX(-4px);
-  transform: rotate(-45deg) translateX(-4px);
+  -webkit-transform: rotate(-45deg) translateX(-3px) translateY(3px);
+  -ms-transform: rotate(-45deg) translateX(-3px) translateY(3px);
+  transform: rotate(-45deg) translateX(-3px) translateY(3px);
 }
 
 .header-bottom__menu-btn:focus-visible:not(:hover):not(:active)::after {
@@ -920,16 +920,18 @@ a {
   left: 0;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  -webkit-transition: background .3s ease-in-out;
-  -o-transition: background .3s ease-in-out;
-  transition: background .3s ease-in-out;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(194, 131, 243, 0.4)), to(rgba(194, 131, 243, 0.4))), url(.jpg);
+  background: -o-linear-gradient(bottom, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)), url(.jpg);
+  background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)), url(.jpg);
+  -webkit-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+  opacity: 0;
   z-index: -1;
 }
 
 .dropdown__link:active::before {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(194, 131, 243, 0.4)), to(rgba(194, 131, 243, 0.4))), url(.jpg);
-  background: -o-linear-gradient(bottom, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)), url(.jpg);
-  background: linear-gradient(0deg, rgba(194, 131, 243, 0.4), rgba(194, 131, 243, 0.4)), url(.jpg);
+  opacity: 1;
 }
 
 .dropdown__link:focus-visible:not(:active):not(:hover) {
@@ -1290,7 +1292,6 @@ a {
 
 .choices__item.choices__item--choice.choices__item--selectable.is-highlighted {
   background-color: rgba(255, 255, 255, 0.2);
-  color: var(--light-color);
   -webkit-transition: background-color .2s ease-in-out, color .2s ease-in-out;
   -o-transition: background-color .2s ease-in-out, color .2s ease-in-out;
   transition: background-color .2s ease-in-out, color .2s ease-in-out;
@@ -2203,7 +2204,7 @@ label {
 }
 
 .events__button-prev {
-  background-image: url('/img/events-btn-next.svg');
+  background-image: url('../img/events-btn-next.svg');
   background-repeat: no-repeat;
   background-position: center 50%;
   -webkit-box-sizing: border-box;
@@ -2215,7 +2216,7 @@ label {
 }
 
 .events__button-next {
-  background-image: url('/img/events-btn-next.svg');
+  background-image: url('../img/events-btn-next.svg');
   background-repeat: no-repeat;
   background-position: center 50%;
   -webkit-box-sizing: border-box;
