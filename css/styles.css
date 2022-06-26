@@ -41,29 +41,20 @@
   --style-color-3: #C283F3;
   --style-color-4: #D1A9F0;
   --text-color-1: #333333;
-
-
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
 }
 
-picture {
+.pic-reset {
   line-height: 0;
 }
 
-ul {
+.list-reset {
+  list-style: none;
   padding: 0;
   margin: 0;
-}
-
-li {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
 }
 
 :active, :hover, :focus {
@@ -2797,7 +2788,7 @@ label {
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
-  color: #D11616 !important;
+  color: #D11616;
 }
 
 .is-invalid {
