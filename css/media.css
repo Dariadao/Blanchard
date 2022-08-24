@@ -7,6 +7,13 @@
 
 /*
 * Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.12,
 * Autoprefixer: v10.4.4
 * Browsers: last 4 version
@@ -180,11 +187,11 @@
   }
 
   .hero__content {
-    padding-top: 166px;
+    padding-top: 158px;
   }
 
   .hero__heading {
-    margin-bottom: 11px;
+    margin-bottom: -11px;
   }
 
   .hero__text {
@@ -224,6 +231,7 @@
 
   .catalog__descr {
     max-width: 100%;
+    margin-bottom: 39px;
   }
 
   .accordion__left, .accordion__right {
@@ -234,6 +242,10 @@
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
+  }
+
+  .painter__name {
+    margin-bottom: 8px;
   }
 
   .painter__info-empty {
@@ -261,7 +273,7 @@
   }
 
   .painters__list {
-    padding-top: 25px;
+    padding-top: 22px;
     padding-bottom: 0;
   }
 
@@ -278,20 +290,21 @@
     -ms-flex-pack: end;
     justify-content: flex-end;
     text-align: right;
+    font-weight: 400;
   }
 
   .events-slide__heading {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
     padding: 0;
   }
 
   .events-slide__content {
-    padding-right: 28px;
+    padding-right: 33px;
     padding-bottom: 36px;
   }
 
   .events-slide__text {
-    max-width: 97%;
+    max-width: 100%;
     padding-bottom: 0;
     line-height: 32px;
   }
@@ -318,6 +331,10 @@
     max-width: 100%;
   }
 
+  .projects-descr__link-device {
+    font-weight: 400;
+  }
+
   .projects__partners {
     padding-bottom: 8.8%;
   }
@@ -340,6 +357,7 @@
 
   .contacts__content {
     padding-bottom: 0;
+    padding-top: 4.1%;
   }
 
   .contacts__contact-info {
@@ -348,7 +366,7 @@
 
   .contacts__form {
     width: 100%;
-    padding: 3.3% 0 2.5% 0;
+    padding: 3.1% 0 2.9% 0;
   }
 
   .contact-form__btn {
@@ -357,6 +375,16 @@
 
   .contacts__messengers {
     padding: 0.6% 0 4.7% 0;
+  }
+
+  .contact-info__heading {
+    margin-bottom: 10px;
+  }
+
+  .contact-info__address {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
   }
 
   .social-media__item {
@@ -370,7 +398,7 @@
   }
 
   .social-media__item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 20px;
   }
 
   .gallery__modal {
@@ -396,7 +424,7 @@
   }
 
   .hero__content {
-    padding-top: 178px;
+    padding-top: 170px;
   }
 
   .hero__text {
@@ -469,7 +497,11 @@
   }
 
   .painter__name {
-    padding-top: 28px;
+    padding-top: 14px;
+  }
+
+  .painter__year {
+    margin-bottom: 6px;
   }
 
   .painter__info-empty {
@@ -503,12 +535,12 @@
   }
 
   .events__container {
-    padding-top: 10px;
+    padding-top: 22px;
   }
 
   .events-slide__content {
     min-height: 483px;
-    padding: 15px 32px 47px 34px;
+    padding: 14px 32px 47px 34px;
   }
 
   .events__container {
@@ -519,13 +551,16 @@
     padding-right: 19px;
   }
 
-  .events-slide__place-date {
-    margin-bottom: 0;
-    font-weight: 400;
+  .events-slide__heading {
+    margin-bottom: 4px;
   }
 
   .events-slide__heading, .events-slide__text {
     width: 91%;
+  }
+
+  .events-slide__btn::after {
+    top: -4px;
   }
 
   .events__bullets.swiper-pagination-bullets.swiper-pagination-horizontal {
@@ -537,7 +572,7 @@
   }
 
   .projects__partners-heading {
-    margin-bottom: 27px;
+    margin-bottom: 28px;
     padding-top: 7px;
   }
 
@@ -617,7 +652,7 @@
   }
 
   .contact-info__heading {
-    margin-bottom: 3px;
+    margin-bottom: 8px;
   }
 
   .gallery__modal {
@@ -893,14 +928,15 @@
   }
 
   .hero__heading {
+    margin-bottom: 4px;
     font-size: 32px;
-    line-height: 39px;
+    line-height: 43px;
     text-align: center;
   }
 
   .hero__text {
     max-width: 95%;
-    margin-bottom: 14.5%;
+    margin-bottom: 14.3%;
     padding-left: 8px;
     font-weight: 400;
     font-size: 12px;
@@ -1016,7 +1052,7 @@
 
   .catalog__container {
     padding-top: 0;
-    padding-bottom: 24px;
+    padding-bottom: 13px;
   }
 
   .catalog__heading {
@@ -1059,12 +1095,16 @@
   }
 
   .accordion__right {
-    margin-bottom: 18%;
+    margin-bottom: 17%;
   }
 
   .painter__name {
-    margin-bottom: 11px;
+    margin-bottom: 6px;
     padding-top: 16px;
+  }
+
+  .painter__year {
+    margin-bottom: 13px;
   }
 
   .painter__info {
@@ -1095,11 +1135,11 @@
   }
 
   .events-slide__content {
-    padding: 15px 16px 51px 22px;
+    padding: 18px 17px 51px 22px;
   }
 
   .events-slide__place-date {
-    margin-bottom: 12px;
+    margin-bottom: 10px;
   }
 
   .events-slide__heading {
@@ -1128,7 +1168,7 @@
 
   .projects__descr {
     max-width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 42px;
   }
 
   .projects__partners-heading {
@@ -1170,7 +1210,7 @@
 
 
   .contact-info__heading {
-    margin-bottom: 0;
+    margin-bottom: 5px;
     font-size: 18px;
     line-height: 25px;
   }
@@ -1182,7 +1222,7 @@
   }
 
   .contacts__form {
-    padding: 4.5% 0 7% 0;
+    padding: 6.2% 0 6% 0;
   }
 
   .contact-form__input {
@@ -1226,6 +1266,7 @@
   }
 
   .messengers__heading {
+    margin-bottom: 8px;
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
@@ -1246,7 +1287,7 @@
   }
 
   .footer__container {
-    height: 126px;
+    height: 132px;
   }
 
   .footer__content {
@@ -1267,8 +1308,8 @@
   }
 
   .social-media {
-    max-width: 210px;
-    padding: 17px 0 10px 0;
+    max-width: 120px;
+    padding: 8px 0 10px 0;
   }
 
   .social-media__link svg {
@@ -1302,6 +1343,6 @@
   }
 
   .footer__container {
-    padding-top: 2px;
+    padding-top: 0;
   }
 }

@@ -7,6 +7,13 @@
 
 /*
 * Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.12,
 * Autoprefixer: v10.4.4
 * Browsers: last 4 version
@@ -102,7 +109,7 @@ body {
   padding: 0;
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
-          clip-path: inset(50%);
+  clip-path: inset(50%);
   margin: -1px;
 }
 
@@ -1051,22 +1058,21 @@ body {
 .hero__content {
   height: 100%;
   width: 100%;
-  padding-top: 152px;
+  padding-top: 142px;
 }
 
 .hero__heading {
   max-width: 600px;
-  margin-bottom: 18px;
   color: var(--light-color);
   font-size: 72px;
   font-weight: 700;
-  line-height: 83px;
+  line-height: 98px;
   letter-spacing: 0em;
   text-align: left;
 }
 
 .hero__text {
-  max-width: 580px;
+  max-width: 550px;
   margin-bottom: 115px;
   color: var(--light-color);
   font-size: 18px;
@@ -1144,7 +1150,7 @@ body {
 }
 
 .about__descr {
-  width: 68%;
+  width: 67%;
   height: 100%;
 }
 
@@ -1797,7 +1803,7 @@ label {
 
 .painter__year {
   display: inline-block;
-  margin-bottom: 6px;
+  margin-bottom: 13px;
   font-weight: 400;
   font-size: 12px;
   line-height: 16px;
@@ -1891,7 +1897,7 @@ label {
   padding-bottom: 32px;
   margin: -1px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .ui-icon {
@@ -2055,7 +2061,7 @@ label {
   text-align: left;
   padding: 65px 0;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .accordion__bottom-title {
@@ -2143,7 +2149,7 @@ label {
 
 .events-slide__heading {
   margin: 0;
-  margin-bottom: 2px;
+  margin-bottom: 9px;
   padding: 0 10px 0 0;
 
 }
@@ -2175,7 +2181,7 @@ label {
   height: 100%;
   width: 100%;
   position: absolute;
-  top: 0;
+  top: -3px;
   left: 0;
   border-bottom: 1px solid var(--style-color-1);
   -webkit-transition: border-color .2s ease-in-out;
@@ -2335,7 +2341,7 @@ label {
   color: var(--style-color-1);
   border-bottom: 1px solid transparent;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-transition: color .3s ease-in-out, border-color .3s ease-in-out, background-color .3s ease-in-out;
   -o-transition: color .3s ease-in-out, border-color .3s ease-in-out, background-color .3s ease-in-out;
   transition: color .3s ease-in-out, border-color .3s ease-in-out, background-color .3s ease-in-out;
@@ -2588,10 +2594,15 @@ label {
   padding-top: 15px;
   padding-bottom: 12px;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-.contact-info__heading, .messengers__heading {
+.contact-info__heading {
+  margin: 0;
+  line-height: 32px;
+}
+
+.messengers__heading {
   margin: 0;
   margin-bottom: 5px;
   line-height: 32px;
@@ -2880,7 +2891,7 @@ label {
 
 .footer__container {
   height: 140px;
-  padding-top: 8px;
+  padding-top: 4px;
   padding-bottom: 5px;
 }
 
