@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
   menuBtn.addEventListener('click',
     function () {
       menu.classList.toggle('burger-menu--active');
+
+      document.body.classList.remove('stop-scroll')
     }
   )
   menuLinks.forEach(function (el) {

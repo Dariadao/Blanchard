@@ -14,6 +14,13 @@
 
 /*
 * Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
 * PostCSS: v8.4.12,
 * Autoprefixer: v10.4.4
 * Browsers: last 4 version
@@ -694,8 +701,8 @@
     color: var(--light-color);
   }
 
-  .header-top__login-link:hover {
-    color: var(--light-color);
+  .header-top__login-link:hover svg path:hover {
+    fill: var(--light-color);
   }
 
   .dropdown__link:hover {
@@ -718,6 +725,9 @@
 
   .events-slide__btn:hover {
     color: var(--style-color-1);
+  }
+
+  .events-slide__btn:hover:after {
     border-color: var(--style-color-1);
   }
 
